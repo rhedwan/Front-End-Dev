@@ -19,14 +19,14 @@ function screen() {
 
   // Screen Size (Width & height)
 
-  size.innerHTML = "Width : " + Width + " px";
-  // size.innerHTML = "Height : " + Height + " px";
+//   size.innerHTML = "Width : " + Width + " px";
+  size.innerHTML = "Height : " + Height + " px";
 
   // Display Font size
   font_size.innerHTML = `f-size : ` + f_size;
 
   // Box Width & height
 
-  box.innerHTML = "Width : " + Box_width; 
-  // box.innerHTML = "Height : " + Box_height;
+//   box.innerHTML = "Wi/dth : " + Box_width; 
+  box.innerHTML = "Height : " + Box_height;
 }

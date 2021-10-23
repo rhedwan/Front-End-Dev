@@ -39,11 +39,11 @@
   }
   
   .box {
-    /* width: 150px; */
+    width: 150px;
 
     /* Using the VW */
-    width: 50vw;
-    height: 50%;
+    /* width: 50vw; */
+    height: 20vh;
     background-color: skyblue;
     display: grid;
     place-content: center;
