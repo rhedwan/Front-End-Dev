@@ -27,6 +27,6 @@ function screen() {
 
   // Box Width & height
 
-  // box.innerHTML = "Width : " + Box_width;
+  box.innerHTML = "Width : " + Box_width; 
   // box.innerHTML = "Height : " + Box_height;
 }

@@ -27,25 +27,32 @@
   /*👇👇 Experiment Here 👇👇*/
   
   html {
-    font-size: 16px;
+    font-size: 20px;
   }
    
   .text { 
-    font-size: 1rem;
+    font-size: 3rem;
+    display: none;
+        /* Using the em Units */
+    /* font-size: 3em;
+    padding: 3em; */
   }
   
   .box {
-    width: 150px;
+    /* width: 150px; */
+
+    /* Using the VW */
+    width: 50vw;
     height: 50%;
     background-color: skyblue;
     display: grid;
     place-content: center;
     font-size: 25px;
   
-    display: none;
+    /* display: none; */
   }
   
-  @media (max-width: 1400px) {
+  /* @media (max-width: 1400px) {
     html {
       font-size: 25px;
     }
@@ -62,4 +69,4 @@
       font-size: 12px;
     }
   }
-   
+    */
