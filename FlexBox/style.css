@@ -35,7 +35,13 @@
 .item1{
     height: 120px;
     /* order: 20; */
-    flex-grow: 1;
+
+    /* flex-grow: 1; */
+    /* flex-shrink: 0;
+    flex-basis: 200px; */
+
+    /* Shirthand */
+    flex:0 0 200px ;
 }
 .item2{
     align-self: flex-end;
