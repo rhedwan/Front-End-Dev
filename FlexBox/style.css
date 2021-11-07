@@ -31,9 +31,20 @@
     font-size: 20px;
 }
 
-.item3{
+.item1{
     height: 120px;
 }
+.item2{
+    align-self: flex-end;
+}
+.item3{
+}
+.item4{
+}
+.item5{
+    order: -1;
+}
+
 
 /*  
 
