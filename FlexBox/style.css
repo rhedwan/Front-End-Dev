@@ -11,22 +11,31 @@
     display: flex;
     /* flex-direction: row; */
     justify-content: flex-start;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
 
     /* shorthand for flex-direction and wrap */
     /* flex-flow: row wrap; */
 
-    
+
     /* align-content: flex-start; */
 
 }
 
 .item{
-    /* height: 60px; */
+    height: 60px;
     background-color: orange;
     padding: 20px;
     margin: 10px;
     color: #fff;
     font-size: 20px;
 }
+
+.item3{
+    height: 120px;
+}
+
+/*  
+
+baseline makes it on the same line when height is changed.
+*/
