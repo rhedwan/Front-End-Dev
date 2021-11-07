@@ -14,7 +14,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px;
     grid-template-areas: "box1 box2 box3" 
-                         "box1 box4 box4";
+                         "box4 . .";
+    column-gap: 10px;    
+    row-gap: 10px;               
 }
 
 .box1{
