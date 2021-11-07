@@ -5,17 +5,20 @@
 }
 
 .container{
-    /* height: 50vh; */
+    /* height: 100vh; */
     background-color: #eee;
     padding: 10px;
     display: flex;
     /* flex-direction: row; */
     justify-content: flex-start;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
     /* shorthand for flex-direction and wrap */
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
+
+    
+    /* align-content: flex-start; */
 
 }
 
