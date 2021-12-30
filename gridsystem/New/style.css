@@ -10,8 +10,11 @@
   grid-template-rows: 250px 250px;
   grid-template-areas: "box1 box2 box3"
                         "box4 . ." ;
-  column-gap: 20px;       
-  row-gap: 20px;               
+  /* column-gap: 20px;       
+  row-gap: 20px;                */
+   /* grid-gap: 20px; */
+   justify-items: stretch;
+   align-items: stretch;
 }
 
 .box1 {
