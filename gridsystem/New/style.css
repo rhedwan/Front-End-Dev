@@ -21,4 +21,6 @@
 }
 .box4 {
   background-color: #3886ff;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
